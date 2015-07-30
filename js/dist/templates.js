@@ -100,7 +100,7 @@ function program1(depth0,data) {
     'href': ("url")
   },hashTypes:{'href': "STRING"},hashContexts:{'href': depth0},contexts:[],types:[],data:data})));
   data.buffer.push(" class=\"link\">\n              ");
-  stack1 = helpers['if'].call(depth0, "aquired", {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(2, program2, data),contexts:[depth0],types:["ID"],data:data});
+  stack1 = helpers['if'].call(depth0, "acquired", {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(2, program2, data),contexts:[depth0],types:["ID"],data:data});
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
   data.buffer.push("\n              ");
   stack1 = helpers['if'].call(depth0, "photo", {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(4, program4, data),contexts:[depth0],types:["ID"],data:data});
@@ -128,7 +128,7 @@ function program1(depth0,data) {
 function program2(depth0,data) {
   
   
-  data.buffer.push("\n                <div class=\"aquired\">*</div>\n              ");
+  data.buffer.push("\n                <div class=\"acquired\">*</div>\n              ");
   }
 
 function program4(depth0,data) {
