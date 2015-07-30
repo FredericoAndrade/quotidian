@@ -45,7 +45,6 @@ App.Company.FIXTURES = [
     acquired:"RocketLawyer",
     photo:"/images/companies/lawPivot.png",
     location:"New York, NY",
-    url:"http://www.lawpivot.com",
     twitter:"http://twitter.com/lawpivot",
     angelList:"http://angel.co/lawpivot'"
   },
@@ -185,7 +184,6 @@ App.Company.FIXTURES = [
     acquired:"",
     photo:"/images/companies/clip.png",
     location:"San Francisco, CA",
-    url:"",
     twitter:"http://twitter.com/cliplabs",
     angelList:"http://angel.co/clip'"
   },
@@ -285,7 +283,6 @@ App.Company.FIXTURES = [
     acquired:"",
     photo:"/images/companies/knodes.png",
     location:"New York, NY",
-    url:"http://www.knod.es",
     twitter:"http://twitter.com/knodes",
     angelList:"http://angel.co/knodes'"
   },
@@ -325,7 +322,6 @@ App.Company.FIXTURES = [
     acquired:"",
     photo:"/images/companies/memoir.png",
     location:"New York, NY",
-    url:"http://www.mymemoir.com",
     twitter:"http://twitter.com/memoir",
     angelList:"http://angel.co/memoir'"
   },
@@ -375,7 +371,6 @@ App.Company.FIXTURES = [
     acquired:"",
     photo:"/images/companies/smileBack.png",
     location:"New York, NY",
-    url:"http://www.smileback.com",
     twitter:"http://twitter.com/smileback",
     angelList:"http://angel.co/smileback'"
   },
@@ -442,7 +437,7 @@ App.Company.FIXTURES = [
   {
     id:45,
     name:"Versa",
-    acquired:"",
+    acquired:"Change.org",
     photo:"/images/companies/versa.png",
     location:"New York, NY",
     url:"http://www.versahq.com",

@@ -108,7 +108,7 @@ function program1(depth0,data) {
   data.buffer.push("\n              <span class=\"info\">\n                <p><b>");
   stack1 = helpers._triageMustache.call(depth0, "name", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["ID"],data:data});
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("</b></p>\n                <p>");
+  data.buffer.push("</b></p>\n                <p class=\"companyLocation\">");
   stack1 = helpers._triageMustache.call(depth0, "location", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["ID"],data:data});
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
   data.buffer.push("</p>\n                ");
