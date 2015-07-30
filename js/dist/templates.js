@@ -128,7 +128,7 @@ function program1(depth0,data) {
 function program2(depth0,data) {
   
   
-  data.buffer.push("\n                <div class=\"acquired\">*</div>\n              ");
+  data.buffer.push("\n                <div class=\"acquired\"><p>Acquired</p></div>\n              ");
   }
 
 function program4(depth0,data) {
