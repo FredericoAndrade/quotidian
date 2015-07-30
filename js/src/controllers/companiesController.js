@@ -1,1 +1,4 @@
-App.CompaniesController = Ember.ArrayController.extend({})
+App.CompaniesController = Ember.ArrayController.extend({
+  sortProperties:['acquired'],
+  sortAscending: false
+})
