@@ -2,7 +2,7 @@ App.Company.FIXTURES = [
   {
     id:1,
     name:"WeHostels",
-    aquired:"StudentUniverse",
+    acquired:"StudentUniverse",
     photo:"/images/companies/weHostels.png",
     location:"New York, NY",
     url:"http://www.wehostels.com",
@@ -12,7 +12,7 @@ App.Company.FIXTURES = [
   {
     id:2,
     name:"BrightNest",
-    aquired:"Angies List",
+    acquired:"Angies List",
     photo:"/images/companies/brightNest.png",
     location:"New York, NY",
     url:"http://brightnest.com/",
@@ -22,17 +22,17 @@ App.Company.FIXTURES = [
   {
     id:3,
     name:"Grand St.",
-    aquired:"Etsy",
+    acquired:"Etsy",
     photo:"/images/companies/grandSt.png",
     location:"New York, NY",
-    url:"http://www.grand.st",
+    url:"https://grandst.com/",
     twitter:"http://twitter.com/grandst",
     angelList:"http://angel.co/grandst'"
   },
   {
     id:4,
     name:"HitPost",
-    aquired:"Yahoo!",
+    acquired:"Yahoo!",
     photo:"/images/companies/hitPost.png",
     location:"New York, NY",
     url:"http://hitpost.com/",
@@ -42,7 +42,7 @@ App.Company.FIXTURES = [
   {
     id:5,
     name:"LawPivot",
-    aquired:"RocketLawyer",
+    acquired:"RocketLawyer",
     photo:"/images/companies/lawPivot.png",
     location:"New York, NY",
     url:"http://www.lawpivot.com",
@@ -52,7 +52,7 @@ App.Company.FIXTURES = [
   {
     id:6,
     name:"Locu",
-    aquired:"GoDaddy",
+    acquired:"GoDaddy",
     photo:"/images/companies/locu.png",
     location:"New York, NY",
     url:"http://www.locu.com",
@@ -62,7 +62,7 @@ App.Company.FIXTURES = [
   {
     id:7,
     name:"SnapJoy",
-    aquired:"Dropbox",
+    acquired:"Dropbox",
     photo:"/images/companies/snapJoy.png",
     location:"New York, NY",
     url:"http://www.snapjoy.com",
@@ -72,7 +72,7 @@ App.Company.FIXTURES = [
   {
     id:8,
     name:"Stypi",
-    aquired:"Salesforce",
+    acquired:"Salesforce",
     photo:"/images/companies/stypi.png",
     location:"New York, NY",
     url:"http://www.stypi.com",
@@ -82,7 +82,7 @@ App.Company.FIXTURES = [
   {
     id:9,
     name:"TapEngage",
-    aquired:"Dropbox",
+    acquired:"Dropbox",
     photo:"/images/companies/tapEngage.png",
     location:"New York, NY",
     url:"http://www.tapengage.com",
@@ -92,7 +92,7 @@ App.Company.FIXTURES = [
   {
     id:10,
     name:"Admitted.ly",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/admittedly.png",
     location:"New York, NY",
     url:"http://www.admitted.ly",
@@ -102,7 +102,7 @@ App.Company.FIXTURES = [
   {
     id:11,
     name:"Artsicle",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/artsicle.png",
     location:"New York, NY",
     url:"http://www.artsicle.com",
@@ -112,17 +112,17 @@ App.Company.FIXTURES = [
   {
     id:12,
     name:"Amicus",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/amicus.png",
     location:"New York, NY",
-    url:"http://www.amicus.com",
+    url:"http://www.amicushq.com",
     twitter:"http://twitter.com/amicushq",
     angelList:"http://angel.co/amicus'"
   },
   {
     id:13,
     name:"Adcade",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/adcade.png",
     location:"New York, NY",
     url:"http://www.adcade.com",
@@ -132,7 +132,7 @@ App.Company.FIXTURES = [
   {
     id:14,
     name:"August",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/august.png",
     location:"San Francisco, CA",
     url:"http://www.august.com",
@@ -142,7 +142,7 @@ App.Company.FIXTURES = [
   {
     id:15,
     name:"Bench",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/bench.png",
     location:"Vancouver, BC",
     url:"http://www.bench.co",
@@ -152,7 +152,7 @@ App.Company.FIXTURES = [
   {
     id:16,
     name:"Brass Monkey",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/brassMonkey.png",
     location:"Boston MA",
     url:"http://www.playbrassmonkey.com",
@@ -162,7 +162,7 @@ App.Company.FIXTURES = [
   {
     id:17,
     name:"BringMeThat",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/bringMeThat.png",
     location:"New York, NY",
     url:"http://www.bringmethat.com",
@@ -172,7 +172,7 @@ App.Company.FIXTURES = [
   {
     id:18,
     name:"Circa",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/circa.png",
     location:"San Francisco, CA",
     url:"http://www.cir.ca",
@@ -182,17 +182,17 @@ App.Company.FIXTURES = [
   {
     id:19,
     name:"Clip",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/clip.png",
     location:"San Francisco, CA",
-    url:"http://www.cliplabs.com",
+    url:"",
     twitter:"http://twitter.com/cliplabs",
     angelList:"http://angel.co/clip'"
   },
   {
     id:20,
     name:"Clothia",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/clothia.png",
     location:"San Francisco, CA",
     url:"http://www.clothia.com",
@@ -202,7 +202,7 @@ App.Company.FIXTURES = [
   {
     id:21,
     name:"Comprehend",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/comprehend.png",
     location:"San Francisco, CA",
     url:"http://www.comprehend.com",
@@ -212,7 +212,7 @@ App.Company.FIXTURES = [
   {
     id:22,
     name:"Disruption Corporation",
-    aquired:"",
+    acquired:"1776",
     photo:"/images/companies/disruptionCorporation.png",
     location:"Washington, DC",
     url:"http://www.disruption.vc",
@@ -222,7 +222,7 @@ App.Company.FIXTURES = [
   {
     id:23,
     name:"Docracy",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/docracy.png",
     location:"New York, NY",
     url:"http://www.docracy.com",
@@ -232,7 +232,7 @@ App.Company.FIXTURES = [
   {
     id:24,
     name:"Faith Street",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/faithStreet.png",
     location:"New York, NY",
     url:"http://www.faithstreet.com",
@@ -242,7 +242,7 @@ App.Company.FIXTURES = [
   {
     id:25,
     name:"Field Lens",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/fieldLens.png",
     location:"New York, NY",
     url:"http://www.fieldlens.com",
@@ -252,7 +252,7 @@ App.Company.FIXTURES = [
   {
     id:26,
     name:"IdeaMe",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/ideaMe.png",
     location:"Buenos Aires, Argentina",
     url:"http://www.idea.me",
@@ -262,7 +262,7 @@ App.Company.FIXTURES = [
   {
     id:27,
     name:"IMRSV",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/imrsv.png",
     location:"New York, NY",
     url:"http://www.imrsv.com",
@@ -272,7 +272,7 @@ App.Company.FIXTURES = [
   {
     id:28,
     name:"Keychain Logistics",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/keychainLogistics.png",
     location:"New York, NY",
     url:"http://keychainlogistics.com",
@@ -282,7 +282,7 @@ App.Company.FIXTURES = [
   {
     id:29,
     name:"Knodes",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/knodes.png",
     location:"New York, NY",
     url:"http://www.knod.es",
@@ -292,7 +292,7 @@ App.Company.FIXTURES = [
   {
     id:30,
     name:"LaunchRock",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/launchRock.png",
     location:"San Francisco, CA",
     url:"http://www.launchrock.com",
@@ -302,7 +302,7 @@ App.Company.FIXTURES = [
   {
     id:31,
     name:"Loverly",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/loverly.png",
     location:"New York, NY",
     url:"http://www.lover.ly",
@@ -312,7 +312,7 @@ App.Company.FIXTURES = [
   {
     id:32,
     name:"Matchbook",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/matchbook.png",
     location:"New York, NY",
     url:"http://www.matchbook.co",
@@ -322,7 +322,7 @@ App.Company.FIXTURES = [
   {
     id:33,
     name:"Memoir",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/memoir.png",
     location:"New York, NY",
     url:"http://www.mymemoir.com",
@@ -332,7 +332,7 @@ App.Company.FIXTURES = [
   {
     id:34,
     name:"Moveline",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/moveline.png",
     location:"Las Vegas, NV",
     url:"http://www.moveline.com",
@@ -342,7 +342,7 @@ App.Company.FIXTURES = [
   {
     id:35,
     name:"Nestio",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/nestio.png",
     location:"New York, NY",
     url:"http://www.nestio.com",
@@ -352,7 +352,7 @@ App.Company.FIXTURES = [
   {
     id:36,
     name:"Paintzen",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/paintzen.png",
     location:"New York, NY",
     url:"http://www.paintzen.com",
@@ -362,7 +362,7 @@ App.Company.FIXTURES = [
   {
     id:37,
     name:"SmartAsset",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/smartAsset.png",
     location:"New York, NY",
     url:"http://www.smartasset.com",
@@ -372,7 +372,7 @@ App.Company.FIXTURES = [
   {
     id:38,
     name:"SmileBack",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/smileBack.png",
     location:"New York, NY",
     url:"http://www.smileback.com",
@@ -382,7 +382,7 @@ App.Company.FIXTURES = [
   {
     id:39,
     name:"SponsorHub",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/sponsorHub.png",
     location:"New York, NY",
     url:"http://www.sponsorhub.com",
@@ -392,7 +392,7 @@ App.Company.FIXTURES = [
   {
     id:40,
     name:"SupplyHog",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/supplyHog.png",
     location:"Chattanooga, TN",
     url:"http://www.supplyhog.com",
@@ -402,7 +402,7 @@ App.Company.FIXTURES = [
   {
     id:41,
     name:"TagStand",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/tagStand.png",
     location:"San Francisco, CA",
     url:"http://www.tagstand.com",
@@ -412,7 +412,7 @@ App.Company.FIXTURES = [
   {
     id:42,
     name:"TapAd",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/tapAd.png",
     location:"New York, NY",
     url:"http://www.tapad.com",
@@ -422,7 +422,7 @@ App.Company.FIXTURES = [
   {
     id:43,
     name:"Thinkful",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/thinkful.png",
     location:"New York, NY",
     url:"http://www.thinkful.com",
@@ -432,7 +432,7 @@ App.Company.FIXTURES = [
   {
     id:44,
     name:"ThinkUp",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/thinkUp.png",
     location:"New York, NY",
     url:"http://www.thinkup.com",
@@ -442,7 +442,7 @@ App.Company.FIXTURES = [
   {
     id:45,
     name:"Versa",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/versa.png",
     location:"New York, NY",
     url:"http://www.versahq.com",
@@ -452,7 +452,7 @@ App.Company.FIXTURES = [
   {
     id:46,
     name:"Videolicious",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/videolicious.png",
     location:"New York, NY",
     url:"http://www.videolicious.com",
@@ -462,7 +462,7 @@ App.Company.FIXTURES = [
   {
     id:47,
     name:"Wallaby",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/wallaby.png",
     location:"Passadena, CA",
     url:"http://www.walla.by",
@@ -472,7 +472,7 @@ App.Company.FIXTURES = [
   {
     id:48,
     name:"WePow",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/wePow.png",
     location:"New York, NY",
     url:"http://www.wepow.com",
@@ -482,7 +482,7 @@ App.Company.FIXTURES = [
   {
     id:49,
     name:"YesGraph",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/yesGraph.png",
     location:"San Francisco, CA",
     url:"http://www.yesgraph.com",
@@ -492,7 +492,7 @@ App.Company.FIXTURES = [
   {
     id:50,
     name:"Zerply",
-    aquired:"",
+    acquired:"",
     photo:"/images/companies/zerply.png",
     location:"San Francisco, CA",
     url:"http://www.zerply.com",

@@ -14,23 +14,17 @@
         margin 0
         display inline-block
 
-        &:hover
-          .wrapper
-            box-shadow 0 2px 4px rgba(0,0,0,0.2)
-
-            .link
-              .aquired
-                border-top-width 0
-                border-left-width 0
-
-            span
-              opacity .95
-
         .wrapper
           position relative
           border 3px #ddd solid
           height 18.61vw
           overflow hidden
+
+          &:hover
+            box-shadow 0 2px 4px rgba(0,0,0,0.2)
+
+            span
+              opacity .95
 
           .link
             box-sizing border-box
@@ -40,17 +34,14 @@
             display inline-block
             box-shadow 0 1px 2px rgba(0,0,0,0.1)
 
-            .aquired
-              width 0
-              height 0
-              border-top 25px solid #ddd
-              border-left 25px solid transparent
-              box-shadow 0 2px 4px rgba(0,0,0,0.1)
+            .acquired
               position absolute
               right 0
-              top 0
-              z-index 10
-              transition border-top-width .02s ease-in-out, border-left-width .02s ease-in-out
+              left 0
+              bottom 0
+              text-align center
+              font-weight bold
+              color $red
 
             .companyLogo
               height 100%
@@ -87,7 +78,7 @@
                   margin .8em 0
                   font-weight bold
 
-                &.aquiredBy
+                &.acquiredBy
                   color $red
                   font-style italic
 
