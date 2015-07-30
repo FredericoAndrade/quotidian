@@ -128,7 +128,7 @@ function program1(depth0,data) {
 function program2(depth0,data) {
   
   
-  data.buffer.push("\n                <div class=\"aquired\"></div>\n              ");
+  data.buffer.push("\n                <div class=\"aquired\">*</div>\n              ");
   }
 
 function program4(depth0,data) {
@@ -156,108 +156,6 @@ function program6(depth0,data) {
   stack1 = helpers.each.call(depth0, {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(1, program1, data),contexts:[],types:[],data:data});
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
   data.buffer.push("\n    </ul>\n  </div>\n</div>");
-  return buffer;
-  
-});
-
-Ember.TEMPLATES["components/aquired-company-component"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data
-/**/) {
-this.compilerInfo = [4,'>= 1.0.0'];
-helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
-  var buffer = '', stack1, escapeExpression=this.escapeExpression, self=this;
-
-function program1(depth0,data) {
-  
-  var buffer = '';
-  data.buffer.push("\n          <span class=\"helper\"></span>\n          <img ");
-  data.buffer.push(escapeExpression(helpers['bind-attr'].call(depth0, {hash:{
-    'src': ("photo")
-  },hashTypes:{'src': "STRING"},hashContexts:{'src': depth0},contexts:[],types:[],data:data})));
-  data.buffer.push(">\n        ");
-  return buffer;
-  }
-
-function program3(depth0,data) {
-  
-  var buffer = '', stack1;
-  data.buffer.push("\n          <p class=\"aquiredBy\">Aquired by ");
-  stack1 = helpers._triageMustache.call(depth0, "aquired", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["ID"],data:data});
-  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("</p>\n        ");
-  return buffer;
-  }
-
-  data.buffer.push("<li class=\"company aquired\">\n  <div class=\"wrapper\">\n    <a ");
-  data.buffer.push(escapeExpression(helpers['bind-attr'].call(depth0, {hash:{
-    'href': ("url")
-  },hashTypes:{'href': "STRING"},hashContexts:{'href': depth0},contexts:[],types:[],data:data})));
-  data.buffer.push(" class=\"link\">\n      <img src=\"images/logo.png\" alt=\"\" class=\"quotidian-logo\">\n      <div class=\"photoWrapper\">\n        ");
-  stack1 = helpers['if'].call(depth0, "photo", {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(1, program1, data),contexts:[depth0],types:["ID"],data:data});
-  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("\n      </div>\n      <span class=\"info\">\n        <p><b>");
-  stack1 = helpers._triageMustache.call(depth0, "name", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["ID"],data:data});
-  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("</b></p>\n        <p>");
-  stack1 = helpers._triageMustache.call(depth0, "location", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["ID"],data:data});
-  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("</p>\n        ");
-  stack1 = helpers['if'].call(depth0, "aquired", {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(3, program3, data),contexts:[depth0],types:["ID"],data:data});
-  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("\n      </span>\n    </a>\n    <span class=\"social\">\n      <ul>\n        <li><a ");
-  data.buffer.push(escapeExpression(helpers['bind-attr'].call(depth0, {hash:{
-    'href': ("twitter")
-  },hashTypes:{'href': "STRING"},hashContexts:{'href': depth0},contexts:[],types:[],data:data})));
-  data.buffer.push(" class=\"twitter\"></a></li>\n        <li><a ");
-  data.buffer.push(escapeExpression(helpers['bind-attr'].call(depth0, {hash:{
-    'href': ("angelList")
-  },hashTypes:{'href': "STRING"},hashContexts:{'href': depth0},contexts:[],types:[],data:data})));
-  data.buffer.push(" class=\"angelList\"></a></li>\n      </ul>\n    </span>\n  </div>\n</li>");
-  return buffer;
-  
-});
-
-Ember.TEMPLATES["components/company-component"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data
-/**/) {
-this.compilerInfo = [4,'>= 1.0.0'];
-helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
-  var buffer = '', stack1, escapeExpression=this.escapeExpression, self=this;
-
-function program1(depth0,data) {
-  
-  var buffer = '', stack1;
-  data.buffer.push("\n          <p>Aquired by ");
-  stack1 = helpers._triageMustache.call(depth0, "company.aquired", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["ID"],data:data});
-  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("</p>\n        ");
-  return buffer;
-  }
-
-  data.buffer.push("<li class=\"company\">\n  <div class=\"wrapper\">\n    <a ");
-  data.buffer.push(escapeExpression(helpers['bind-attr'].call(depth0, {hash:{
-    'href': ("company.url")
-  },hashTypes:{'href': "STRING"},hashContexts:{'href': depth0},contexts:[],types:[],data:data})));
-  data.buffer.push(" class=\"link\">\n      <div class=\"photoWrapper\">\n        <span class=\"helper\"></span>\n        <img ");
-  data.buffer.push(escapeExpression(helpers['bind-attr'].call(depth0, {hash:{
-    'src': ("company.photo")
-  },hashTypes:{'src': "STRING"},hashContexts:{'src': depth0},contexts:[],types:[],data:data})));
-  data.buffer.push(">\n      </div>\n      <span class=\"info\">\n        <p><b>");
-  stack1 = helpers._triageMustache.call(depth0, "company.name", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["ID"],data:data});
-  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("</b></p>\n        <p>");
-  stack1 = helpers._triageMustache.call(depth0, "company.location", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["ID"],data:data});
-  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("</p>\n        ");
-  stack1 = helpers['if'].call(depth0, "company.aquired", {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(1, program1, data),contexts:[depth0],types:["ID"],data:data});
-  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("\n      </span>\n    </a>\n    <span class=\"social\">\n      <ul>\n        <li><a ");
-  data.buffer.push(escapeExpression(helpers['bind-attr'].call(depth0, {hash:{
-    'href': ("company.twitter")
-  },hashTypes:{'href': "STRING"},hashContexts:{'href': depth0},contexts:[],types:[],data:data})));
-  data.buffer.push(" class=\"twitter\"></a></li>\n        <li><a ");
-  data.buffer.push(escapeExpression(helpers['bind-attr'].call(depth0, {hash:{
-    'href': ("company.angelList")
-  },hashTypes:{'href': "STRING"},hashContexts:{'href': depth0},contexts:[],types:[],data:data})));
-  data.buffer.push(" class=\"angelList\"></a></li>\n      </ul>\n    </span>\n  </div>\n</li>");
   return buffer;
   
 });
@@ -346,6 +244,50 @@ function program7(depth0,data) {
   
 });
 
+Ember.TEMPLATES["components/sub-nav"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data
+/**/) {
+this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
+  var buffer = '', stack1, helper, options, escapeExpression=this.escapeExpression, self=this, helperMissing=helpers.helperMissing;
+
+function program1(depth0,data) {
+  
+  
+  data.buffer.push("Pre-Product");
+  }
+
+function program3(depth0,data) {
+  
+  
+  data.buffer.push("Pre-Traction");
+  }
+
+function program5(depth0,data) {
+  
+  
+  data.buffer.push("Pre-Seed");
+  }
+
+  data.buffer.push("<li ");
+  data.buffer.push(escapeExpression(helpers.action.call(depth0, "scrollToContent", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
+  data.buffer.push(">");
+  stack1 = (helper = helpers['link-to'] || (depth0 && depth0['link-to']),options={hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(1, program1, data),contexts:[depth0],types:["STRING"],data:data},helper ? helper.call(depth0, "index.product", options) : helperMissing.call(depth0, "link-to", "index.product", options));
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("</li>\n<li ");
+  data.buffer.push(escapeExpression(helpers.action.call(depth0, "scrollToContent", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
+  data.buffer.push(">");
+  stack1 = (helper = helpers['link-to'] || (depth0 && depth0['link-to']),options={hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(3, program3, data),contexts:[depth0],types:["STRING"],data:data},helper ? helper.call(depth0, "index.traction", options) : helperMissing.call(depth0, "link-to", "index.traction", options));
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("</li>\n<li ");
+  data.buffer.push(escapeExpression(helpers.action.call(depth0, "scrollToContent", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
+  data.buffer.push(">");
+  stack1 = (helper = helpers['link-to'] || (depth0 && depth0['link-to']),options={hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(5, program5, data),contexts:[depth0],types:["STRING"],data:data},helper ? helper.call(depth0, "index.seed", options) : helperMissing.call(depth0, "link-to", "index.seed", options));
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("</li>");
+  return buffer;
+  
+});
+
 Ember.TEMPLATES["contact"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data
 /**/) {
 this.compilerInfo = [4,'>= 1.0.0'];
@@ -361,18 +303,123 @@ Ember.TEMPLATES["index"] = Ember.Handlebars.template(function anonymous(Handleba
 /**/) {
 this.compilerInfo = [4,'>= 1.0.0'];
 helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
-  var buffer = '', stack1, helper, options, self=this, helperMissing=helpers.helperMissing;
+  var buffer = '', stack1, helper, options, escapeExpression=this.escapeExpression, self=this, helperMissing=helpers.helperMissing;
 
 function program1(depth0,data) {
+  
+  
+  data.buffer.push("pre-product");
+  }
+
+function program3(depth0,data) {
+  
+  
+  data.buffer.push("pre-traction");
+  }
+
+function program5(depth0,data) {
+  
+  
+  data.buffer.push("pre-seed");
+  }
+
+function program7(depth0,data) {
   
   
   data.buffer.push("See who we work with");
   }
 
-  data.buffer.push("<div class=\"index\">\n  <div class=\"content\">\n    <h1>We are\n      <span id=\"indexCycle\">\n        <span class=\"indexCycleWrapper\">\n          <span class=\"indexCycleOption\">pre-product</span><span class=\"indexCycleOption\">pre-traction</span><span class=\"indexCycleOption\">pre-seed</span>\n        </span>\n      </span> investors <br>in <span>New York</span> companies <br> with unique <span>founder/market fit.</span></h1>\n    ");
-  stack1 = (helper = helpers['link-to'] || (depth0 && depth0['link-to']),options={hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(1, program1, data),contexts:[depth0],types:["STRING"],data:data},helper ? helper.call(depth0, "companies", options) : helperMissing.call(depth0, "link-to", "companies", options));
+  data.buffer.push("<div class=\"index\">\n  <div class=\"content\">\n    <h1>We are\n      <span id=\"indexCycle\">\n        <span ");
+  data.buffer.push(escapeExpression(helpers.action.call(depth0, "scrollToContent", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
+  data.buffer.push(" class=\"indexCycleWrapper\">\n          ");
+  stack1 = (helper = helpers['link-to'] || (depth0 && depth0['link-to']),options={hash:{
+    'classNames': ("indexCycleOption")
+  },hashTypes:{'classNames': "STRING"},hashContexts:{'classNames': depth0},inverse:self.noop,fn:self.program(1, program1, data),contexts:[depth0],types:["STRING"],data:data},helper ? helper.call(depth0, "index.product", options) : helperMissing.call(depth0, "link-to", "index.product", options));
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("\n          ");
+  stack1 = (helper = helpers['link-to'] || (depth0 && depth0['link-to']),options={hash:{
+    'classNames': ("indexCycleOption")
+  },hashTypes:{'classNames': "STRING"},hashContexts:{'classNames': depth0},inverse:self.noop,fn:self.program(3, program3, data),contexts:[depth0],types:["STRING"],data:data},helper ? helper.call(depth0, "index.traction", options) : helperMissing.call(depth0, "link-to", "index.traction", options));
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("\n          ");
+  stack1 = (helper = helpers['link-to'] || (depth0 && depth0['link-to']),options={hash:{
+    'classNames': ("indexCycleOption")
+  },hashTypes:{'classNames': "STRING"},hashContexts:{'classNames': depth0},inverse:self.noop,fn:self.program(5, program5, data),contexts:[depth0],types:["STRING"],data:data},helper ? helper.call(depth0, "index.seed", options) : helperMissing.call(depth0, "link-to", "index.seed", options));
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("\n        </span>\n      </span> investors <br>in <span>New York</span> companies <br> with unique <span>founder/market fit.</span></h1>\n    ");
+  stack1 = (helper = helpers['link-to'] || (depth0 && depth0['link-to']),options={hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(7, program7, data),contexts:[depth0],types:["STRING"],data:data},helper ? helper.call(depth0, "companies", options) : helperMissing.call(depth0, "link-to", "companies", options));
+  if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
+  data.buffer.push("\n    ");
+  data.buffer.push(escapeExpression((helper = helpers.render || (depth0 && depth0.render),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","ID"],data:data},helper ? helper.call(depth0, "index.index", "index", options) : helperMissing.call(depth0, "render", "index.index", "index", options))));
   data.buffer.push("\n  </div>\n</div>");
+  return buffer;
+  
+});
+
+Ember.TEMPLATES["index/index"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data
+/**/) {
+this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
+  var buffer = '', helper, options, helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression;
+
+
+  data.buffer.push("<div class=\"subIndex\">\n  ");
+  data.buffer.push(escapeExpression((helper = helpers['sub-nav'] || (depth0 && depth0['sub-nav']),options={hash:{
+    'classNames': ("subNav"),
+    'tagName': ("ul")
+  },hashTypes:{'classNames': "STRING",'tagName': "STRING"},hashContexts:{'classNames': depth0,'tagName': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "sub-nav", options))));
+  data.buffer.push("\n  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium porro voluptas, eius, illum, modi quibusdam iste incidunt velit aliquam tempora adipisci at neque asperiores aliquid numquam veritatis atque fuga, dicta?</p>\n  <p>Reiciendis aperiam harum dolorum, nisi amet, illo aliquam sapiente saepe earum velit cupiditate non deserunt possimus voluptas! Dolorum, in, enim corporis cumque laudantium eos voluptates, eum incidunt officia dolore vero?</p>\n</div>\n\n");
+  return buffer;
+  
+});
+
+Ember.TEMPLATES["index/product"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data
+/**/) {
+this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
+  var buffer = '', helper, options, helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression;
+
+
+  data.buffer.push("<div class=\"subIndex\">\n  ");
+  data.buffer.push(escapeExpression((helper = helpers['sub-nav'] || (depth0 && depth0['sub-nav']),options={hash:{
+    'classNames': ("subNav"),
+    'tagName': ("ul")
+  },hashTypes:{'classNames': "STRING",'tagName': "STRING"},hashContexts:{'classNames': depth0,'tagName': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "sub-nav", options))));
+  data.buffer.push("\n  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium porro voluptas, eius, illum, modi quibusdam iste incidunt velit aliquam tempora adipisci at neque asperiores aliquid numquam veritatis atque fuga, dicta?</p>\n  <p>Reiciendis aperiam harum dolorum, nisi amet, illo aliquam sapiente saepe earum velit cupiditate non deserunt possimus voluptas! Dolorum, in, enim corporis cumque laudantium eos voluptates, eum incidunt officia dolore vero?</p>\n</div>\n\n");
+  return buffer;
+  
+});
+
+Ember.TEMPLATES["index/seed"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data
+/**/) {
+this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
+  var buffer = '', helper, options, helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression;
+
+
+  data.buffer.push("<div class=\"subIndex\">\n  ");
+  data.buffer.push(escapeExpression((helper = helpers['sub-nav'] || (depth0 && depth0['sub-nav']),options={hash:{
+    'classNames': ("subNav"),
+    'tagName': ("ul")
+  },hashTypes:{'classNames': "STRING",'tagName': "STRING"},hashContexts:{'classNames': depth0,'tagName': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "sub-nav", options))));
+  data.buffer.push("\n  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, quod cupiditate accusamus aliquid quidem, dolor amet laboriosam ipsa. Hic perferendis reiciendis a vero eum, expedita velit tempora in. Nulla, nesciunt!</p>\n  <p>Voluptatibus ea dignissimos eveniet sit dolorum minus aliquid facilis sapiente odit, eos neque. Voluptatibus, exercitationem, ipsa quaerat deserunt eum corrupti ea sint est, enim rem molestiae asperiores vel similique quos.</p>\n</div>");
+  return buffer;
+  
+});
+
+Ember.TEMPLATES["index/traction"] = Ember.Handlebars.template(function anonymous(Handlebars,depth0,helpers,partials,data
+/**/) {
+this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
+  var buffer = '', helper, options, helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression;
+
+
+  data.buffer.push("<div class=\"subIndex\">\n  ");
+  data.buffer.push(escapeExpression((helper = helpers['sub-nav'] || (depth0 && depth0['sub-nav']),options={hash:{
+    'classNames': ("subNav"),
+    'tagName': ("ul")
+  },hashTypes:{'classNames': "STRING",'tagName': "STRING"},hashContexts:{'classNames': depth0,'tagName': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "sub-nav", options))));
+  data.buffer.push("\n  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis dolorum culpa facilis nisi doloremque quos libero provident, facere rerum reiciendis, deserunt quod quisquam ex dignissimos id reprehenderit possimus maiores consequuntur!</p>\n  <p>Minima optio culpa non quisquam, tenetur, quaerat sequi iste deserunt molestiae neque temporibus, aut. Cumque quidem eveniet deserunt iure doloribus, aliquid placeat similique, amet, quis adipisci tenetur nihil. Est, quae?</p>\n</div>\n\n\n");
   return buffer;
   
 });

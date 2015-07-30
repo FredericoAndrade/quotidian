@@ -56,7 +56,7 @@
       font-weight 100
       font-size 2.9em
       max-width 640px
-      margin 150px auto 80px
+      margin 30vh auto 80px
       line-height 1.4em
 
       span
@@ -78,7 +78,7 @@
             float right
             -webkit-transform-style preserve-3d
 
-            span.indexCycleOption
+            a.indexCycleOption
               display block
               position absolute
               height 60px
@@ -87,6 +87,8 @@
               backface-visibility hidden
               width 100%
               text-align center
+              padding 0
+              font-size .9em
 
               cycleAnimation()
                 animation-duration 8s
@@ -111,7 +113,8 @@
 
     a
       display block
-      width 100%
+      max-width 640px
+      margin auto
       text-align center
       font-size 1.1em
       font-family 'Merriweather'
@@ -119,4 +122,42 @@
       color $red
       font-style italic
       padding 3em 0
-      // margin-bottom 3em
+
+    .subIndex
+      margin 20vh 20vh 0
+
+      .subNav
+        // max-width 640px
+        display table
+        list-style-type none
+        padding 5em 0
+        border-top 1px solid #ddd
+        border-bottom 1px solid #ddd
+        margin 0 auto
+
+        li
+          margin 0 3em
+          float left
+
+          a
+            color #ddd
+            padding 0
+
+            &.active
+              color $red
+
+      p
+        bodyCopy()
+        max-width 640px
+        font-size 1.5em
+        margin auto
+
+        &:first-of-type
+          margin-top 10vh
+          margin-bottom 2em
+
+          &:first-letter
+            font-size 2em
+
+        &:last-of-type
+          margin-bottom 10vh
