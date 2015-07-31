@@ -248,7 +248,7 @@ Ember.TEMPLATES["components/sub-nav"] = Ember.Handlebars.template(function anony
 /**/) {
 this.compilerInfo = [4,'>= 1.0.0'];
 helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
-  var buffer = '', stack1, helper, options, escapeExpression=this.escapeExpression, self=this, helperMissing=helpers.helperMissing;
+  var buffer = '', stack1, helper, options, self=this, helperMissing=helpers.helperMissing;
 
 function program1(depth0,data) {
   
@@ -268,19 +268,13 @@ function program5(depth0,data) {
   data.buffer.push("Pre-Seed");
   }
 
-  data.buffer.push("<li ");
-  data.buffer.push(escapeExpression(helpers.action.call(depth0, "scrollToContent", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
-  data.buffer.push(">");
+  data.buffer.push("<li>");
   stack1 = (helper = helpers['link-to'] || (depth0 && depth0['link-to']),options={hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(1, program1, data),contexts:[depth0],types:["STRING"],data:data},helper ? helper.call(depth0, "index.product", options) : helperMissing.call(depth0, "link-to", "index.product", options));
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("</li>\n<li ");
-  data.buffer.push(escapeExpression(helpers.action.call(depth0, "scrollToContent", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
-  data.buffer.push(">");
+  data.buffer.push("</li>\n<li>");
   stack1 = (helper = helpers['link-to'] || (depth0 && depth0['link-to']),options={hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(3, program3, data),contexts:[depth0],types:["STRING"],data:data},helper ? helper.call(depth0, "index.traction", options) : helperMissing.call(depth0, "link-to", "index.traction", options));
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
-  data.buffer.push("</li>\n<li ");
-  data.buffer.push(escapeExpression(helpers.action.call(depth0, "scrollToContent", {hash:{},hashTypes:{},hashContexts:{},contexts:[depth0],types:["STRING"],data:data})));
-  data.buffer.push(">");
+  data.buffer.push("</li>\n<li>");
   stack1 = (helper = helpers['link-to'] || (depth0 && depth0['link-to']),options={hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(5, program5, data),contexts:[depth0],types:["STRING"],data:data},helper ? helper.call(depth0, "index.seed", options) : helperMissing.call(depth0, "link-to", "index.seed", options));
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
   data.buffer.push("</li>");
@@ -363,12 +357,8 @@ helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
   var buffer = '', helper, options, helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression;
 
 
-  data.buffer.push("<div class=\"subIndex\">\n  ");
-  data.buffer.push(escapeExpression((helper = helpers['sub-nav'] || (depth0 && depth0['sub-nav']),options={hash:{
-    'classNames': ("subNav"),
-    'tagName': ("ul")
-  },hashTypes:{'classNames': "STRING",'tagName': "STRING"},hashContexts:{'classNames': depth0,'tagName': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "sub-nav", options))));
-  data.buffer.push("\n  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium porro voluptas, eius, illum, modi quibusdam iste incidunt velit aliquam tempora adipisci at neque asperiores aliquid numquam veritatis atque fuga, dicta?</p>\n  <p>Reiciendis aperiam harum dolorum, nisi amet, illo aliquam sapiente saepe earum velit cupiditate non deserunt possimus voluptas! Dolorum, in, enim corporis cumque laudantium eos voluptates, eum incidunt officia dolore vero?</p>\n</div>\n\n");
+  data.buffer.push(escapeExpression((helper = helpers.render || (depth0 && depth0.render),options={hash:{},hashTypes:{},hashContexts:{},contexts:[depth0,depth0],types:["STRING","ID"],data:data},helper ? helper.call(depth0, "index.product", "index", options) : helperMissing.call(depth0, "render", "index.product", "index", options))));
+  data.buffer.push("\n\n");
   return buffer;
   
 });
@@ -385,7 +375,7 @@ helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
     'classNames': ("subNav"),
     'tagName': ("ul")
   },hashTypes:{'classNames': "STRING",'tagName': "STRING"},hashContexts:{'classNames': depth0,'tagName': depth0},contexts:[],types:[],data:data},helper ? helper.call(depth0, options) : helperMissing.call(depth0, "sub-nav", options))));
-  data.buffer.push("\n  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium porro voluptas, eius, illum, modi quibusdam iste incidunt velit aliquam tempora adipisci at neque asperiores aliquid numquam veritatis atque fuga, dicta?</p>\n  <p>Reiciendis aperiam harum dolorum, nisi amet, illo aliquam sapiente saepe earum velit cupiditate non deserunt possimus voluptas! Dolorum, in, enim corporis cumque laudantium eos voluptates, eum incidunt officia dolore vero?</p>\n</div>\n\n");
+  data.buffer.push("\n  <p>We look for founders with strong control of the industry they work in, whether they are technical or not. We are here to guide the product development process</p>\n  <p>Reiciendis aperiam harum dolorum, nisi amet, illo aliquam sapiente saepe earum velit cupiditate non deserunt possimus voluptas! Dolorum, in, enim corporis cumque laudantium eos voluptates, eum incidunt officia dolore vero?</p>\n</div>\n\n");
   return buffer;
   
 });
@@ -428,11 +418,10 @@ Ember.TEMPLATES["stream"] = Ember.Handlebars.template(function anonymous(Handleb
 /**/) {
 this.compilerInfo = [4,'>= 1.0.0'];
 helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
-  var buffer = '';
+  
 
 
-  data.buffer.push("<div class=\"news\">\n  <div class=\"content\">\n    <h1>News</h1>\n    \n  </div>\n</div>");
-  return buffer;
+  data.buffer.push("<div class=\"news\">\n  <div class=\"content\">\n    <h1>News</h1>\n    <script async src=\"https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js\"></script><div class=\"tintup\" data-id=\"qventures\" data-columns=\"\" data-expand=\"true\"    data-infinitescroll=\"true\"  style=\"height:500px;width:100%;\"><a href=\"http://www.tintup.com/blog/the-best-twitter-wall-display\" style=\"width:118px;height:31px;background-image:url(//d33w9bm0n1egwm.cloudfront.net/assets/logos/poweredbytintsmall.png);position:absolute;bottom:10px;right: 20px;text-indent: -9999px;z-index:9;\">the best twitter wall</a></div>\n  </div>\n</div>");
   
 });
 
