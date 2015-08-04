@@ -161,7 +161,7 @@ function program7(depth0,data) {
   return buffer;
   }
 
-  data.buffer.push("<div class=\"companies\">\n  <div class=\"content\">\n    <ul>\n      ");
+  data.buffer.push("<div class=\"companies\">\n  <div class=\"content\">\n    \n    <ul>\n      ");
   stack1 = helpers.each.call(depth0, {hash:{},hashTypes:{},hashContexts:{},inverse:self.noop,fn:self.program(1, program1, data),contexts:[],types:[],data:data});
   if(stack1 || stack1 === 0) { data.buffer.push(stack1); }
   data.buffer.push("\n    </ul>\n  </div>\n</div>");
@@ -393,7 +393,7 @@ helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
   
 
 
-  data.buffer.push("<div class=\"image\">\n  <img src=\"http://dummyimage.com/600x400/4d494d/686a82.gif&text=placeholder+image\" alt=\"placeholder+image\">\n</div>\n<p>At Quotidian Ventures, we firmly believe in working closely and collaboratively as a team. In working with us, you have access to each and every partner.</p>");
+  data.buffer.push("<div class=\"image\">\n  <img src=\"http://dummyimage.com/600x300/4d494d/686a82.gif&text=placeholder+image\" alt=\"placeholder+image\">\n</div>\n<p>At Quotidian Ventures, we firmly believe in working closely and collaboratively as a team. In working with us, you have access to each and every partner.</p>");
   
 });
 

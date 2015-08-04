@@ -198,7 +198,7 @@ App.Company.FIXTURES = [
   },
   {
     id:19,
-    live:true,
+    live:false,
     name:"Clip",
     acquired:"",
     photo:"/images/companies/clip.png",
@@ -208,7 +208,7 @@ App.Company.FIXTURES = [
   },
   {
     id:20,
-    live:true,
+    live:false,
     name:"Clothia",
     acquired:"",
     photo:"/images/companies/clothia.png",
@@ -241,7 +241,7 @@ App.Company.FIXTURES = [
   },
   {
     id:23,
-    live:true,
+    live:false,
     name:"Docracy",
     acquired:"",
     photo:"/images/companies/docracy.png",
@@ -274,7 +274,7 @@ App.Company.FIXTURES = [
   },
   {
     id:26,
-    live:true,
+    live:false,
     name:"IdeaMe",
     acquired:"",
     photo:"/images/companies/ideaMe.png",
@@ -550,9 +550,9 @@ App.Company.FIXTURES = [
     name:"Patterns",
     acquired:"Buzzfeed",
     photo:"/images/companies/.png",
-    location:"",
-    url:"",
-    twitter:"http://twitter.com/",
-    angelList:"http://angel.co/'"
+    location:"New York, NY",
+    url:"http://www.buzzfeed.com",
+    twitter:"",
+    angelList:""
   }
 ]
