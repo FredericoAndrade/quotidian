@@ -91,6 +91,7 @@
               text-align center
               padding 0
               font-size .9em
+              cursor pointer
 
               cycleAnimation()
                 animation-duration 8s
@@ -129,8 +130,7 @@
       margin 20vh 20vh 0
 
       .subNav
-        // max-width 640px
-        display table
+        display none
         list-style-type none
         padding 5em 0
         border-top 1px solid #ddd
@@ -140,26 +140,32 @@
         li
           margin 0 3em
           float left
+          font-family "Merriweather", serif
+          font-weight 400
+          font-style italic
+          font-size 1.1em
+          cursor pointer
+          color #ddd
+          padding 0
 
-          a
-            color #ddd
-            padding 0
+          &.active
+            color $red
 
-            &.active
-              color $red
+      .subContent
+        display none
 
-      p
-        bodyCopy()
-        max-width 640px
-        font-size 1.5em
-        margin auto
+        p
+          bodyCopy()
+          max-width 640px
+          font-size 1.5em
+          margin auto
 
-        &:first-of-type
-          margin-top 10vh
-          margin-bottom 2em
+          &:first-of-type
+            margin-top 10vh
+            margin-bottom 2em
 
-          &:first-letter
-            font-size 2em
+            &:first-letter
+              font-size 2em
 
-        &:last-of-type
-          margin-bottom 10vh
+          &:last-of-type
+            margin-bottom 10vh

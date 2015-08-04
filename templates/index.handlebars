@@ -2,13 +2,19 @@
   <div class="content">
     <h1>We are
       <span id="indexCycle">
-        <span {{action "scrollToContent"}} class="indexCycleWrapper">
-          {{#link-to "index.product" classNames="indexCycleOption"}}pre-product{{/link-to}}
-          {{#link-to "index.traction" classNames="indexCycleOption"}}pre-traction{{/link-to}}
-          {{#link-to "index.seed" classNames="indexCycleOption"}}pre-seed{{/link-to}}
+        <span class="indexCycleWrapper">
+          <a {{action "indexProduct"}} class="indexCycleOption">pre-product</a>
+          <a {{action "indexTraction"}} class="indexCycleOption">pre-traction</a>
+          <a {{action "indexSeed"}} class="indexCycleOption">pre-seed</a>
         </span>
       </span> investors <br>in <span>New York</span> companies <br> with unique <span>founder/market fit.</span></h1>
     {{#link-to "companies"}}See who we work with{{/link-to}}
-    {{render "index.index" index}}
+    <div class="subIndex" id="indexContent">
+      {{sub-nav classNames="subNav" tagName="ul"}}
+      {{index-product classNames="subContent product"}}
+      {{index-traction classNames="subContent traction"}}
+      {{index-seed classNames="subContent seed"}}
+    </div>
+
   </div>
 </div>

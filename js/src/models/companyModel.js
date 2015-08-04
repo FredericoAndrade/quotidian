@@ -1,4 +1,5 @@
 App.Company = DS.Model.extend({
+  live: DS.attr('boolean'),
   name: DS.attr('string'),
   acquired: DS.attr('boolean'),
   photo: DS.attr('string'),

@@ -1,6 +1,7 @@
 App.Company.FIXTURES = [
   {
     id:1,
+    live:true,
     name:"WeHostels",
     acquired:"StudentUniverse",
     photo:"/images/companies/weHostels.png",
@@ -11,6 +12,7 @@ App.Company.FIXTURES = [
   },
   {
     id:2,
+    live:true,
     name:"BrightNest",
     acquired:"Angies List",
     photo:"/images/companies/brightNest.png",
@@ -21,6 +23,7 @@ App.Company.FIXTURES = [
   },
   {
     id:3,
+    live:true,
     name:"Grand St.",
     acquired:"Etsy",
     photo:"/images/companies/grandSt.png",
@@ -31,6 +34,7 @@ App.Company.FIXTURES = [
   },
   {
     id:4,
+    live:true,
     name:"HitPost",
     acquired:"Yahoo!",
     photo:"/images/companies/hitPost.png",
@@ -41,6 +45,7 @@ App.Company.FIXTURES = [
   },
   {
     id:5,
+    live:true,
     name:"LawPivot",
     acquired:"RocketLawyer",
     photo:"/images/companies/lawPivot.png",
@@ -50,6 +55,7 @@ App.Company.FIXTURES = [
   },
   {
     id:6,
+    live:true,
     name:"Locu",
     acquired:"GoDaddy",
     photo:"/images/companies/locu.png",
@@ -60,6 +66,7 @@ App.Company.FIXTURES = [
   },
   {
     id:7,
+    live:true,
     name:"SnapJoy",
     acquired:"Dropbox",
     photo:"/images/companies/snapJoy.png",
@@ -70,6 +77,7 @@ App.Company.FIXTURES = [
   },
   {
     id:8,
+    live:true,
     name:"Stypi",
     acquired:"Salesforce",
     photo:"/images/companies/stypi.png",
@@ -80,6 +88,7 @@ App.Company.FIXTURES = [
   },
   {
     id:9,
+    live:true,
     name:"TapEngage",
     acquired:"Dropbox",
     photo:"/images/companies/tapEngage.png",
@@ -90,6 +99,7 @@ App.Company.FIXTURES = [
   },
   {
     id:10,
+    live:true,
     name:"Admitted.ly",
     acquired:"",
     photo:"/images/companies/admittedly.png",
@@ -100,6 +110,7 @@ App.Company.FIXTURES = [
   },
   {
     id:11,
+    live:false,
     name:"Artsicle",
     acquired:"",
     photo:"/images/companies/artsicle.png",
@@ -110,6 +121,7 @@ App.Company.FIXTURES = [
   },
   {
     id:12,
+    live:true,
     name:"Amicus",
     acquired:"",
     photo:"/images/companies/amicus.png",
@@ -120,6 +132,7 @@ App.Company.FIXTURES = [
   },
   {
     id:13,
+    live:true,
     name:"Adcade",
     acquired:"",
     photo:"/images/companies/adcade.png",
@@ -130,6 +143,7 @@ App.Company.FIXTURES = [
   },
   {
     id:14,
+    live:true,
     name:"August",
     acquired:"",
     photo:"/images/companies/august.png",
@@ -140,6 +154,7 @@ App.Company.FIXTURES = [
   },
   {
     id:15,
+    live:true,
     name:"Bench",
     acquired:"",
     photo:"/images/companies/bench.png",
@@ -150,6 +165,7 @@ App.Company.FIXTURES = [
   },
   {
     id:16,
+    live:true,
     name:"Brass Monkey",
     acquired:"",
     photo:"/images/companies/brassMonkey.png",
@@ -160,6 +176,7 @@ App.Company.FIXTURES = [
   },
   {
     id:17,
+    live:true,
     name:"BringMeThat",
     acquired:"",
     photo:"/images/companies/bringMeThat.png",
@@ -170,6 +187,7 @@ App.Company.FIXTURES = [
   },
   {
     id:18,
+    live:false,
     name:"Circa",
     acquired:"",
     photo:"/images/companies/circa.png",
@@ -180,6 +198,7 @@ App.Company.FIXTURES = [
   },
   {
     id:19,
+    live:true,
     name:"Clip",
     acquired:"",
     photo:"/images/companies/clip.png",
@@ -189,6 +208,7 @@ App.Company.FIXTURES = [
   },
   {
     id:20,
+    live:true,
     name:"Clothia",
     acquired:"",
     photo:"/images/companies/clothia.png",
@@ -199,6 +219,7 @@ App.Company.FIXTURES = [
   },
   {
     id:21,
+    live:true,
     name:"Comprehend",
     acquired:"",
     photo:"/images/companies/comprehend.png",
@@ -209,6 +230,7 @@ App.Company.FIXTURES = [
   },
   {
     id:22,
+    live:true,
     name:"Disruption Corporation",
     acquired:"1776",
     photo:"/images/companies/disruptionCorporation.png",
@@ -219,6 +241,7 @@ App.Company.FIXTURES = [
   },
   {
     id:23,
+    live:true,
     name:"Docracy",
     acquired:"",
     photo:"/images/companies/docracy.png",
@@ -229,6 +252,7 @@ App.Company.FIXTURES = [
   },
   {
     id:24,
+    live:true,
     name:"Faith Street",
     acquired:"",
     photo:"/images/companies/faithStreet.png",
@@ -239,6 +263,7 @@ App.Company.FIXTURES = [
   },
   {
     id:25,
+    live:true,
     name:"Field Lens",
     acquired:"",
     photo:"/images/companies/fieldLens.png",
@@ -249,6 +274,7 @@ App.Company.FIXTURES = [
   },
   {
     id:26,
+    live:true,
     name:"IdeaMe",
     acquired:"",
     photo:"/images/companies/ideaMe.png",
@@ -259,8 +285,9 @@ App.Company.FIXTURES = [
   },
   {
     id:27,
+    live:true,
     name:"IMRSV",
-    acquired:"",
+    acquired:"Kairos",
     photo:"/images/companies/imrsv.png",
     location:"New York, NY",
     url:"http://www.imrsv.com",
@@ -269,6 +296,7 @@ App.Company.FIXTURES = [
   },
   {
     id:28,
+    live:true,
     name:"Keychain Logistics",
     acquired:"",
     photo:"/images/companies/keychainLogistics.png",
@@ -279,6 +307,7 @@ App.Company.FIXTURES = [
   },
   {
     id:29,
+    live:false,
     name:"Knodes",
     acquired:"",
     photo:"/images/companies/knodes.png",
@@ -288,8 +317,9 @@ App.Company.FIXTURES = [
   },
   {
     id:30,
+    live:true,
     name:"LaunchRock",
-    acquired:"",
+    acquired:"Fundable",
     photo:"/images/companies/launchRock.png",
     location:"San Francisco, CA",
     url:"http://www.launchrock.com",
@@ -298,6 +328,7 @@ App.Company.FIXTURES = [
   },
   {
     id:31,
+    live:true,
     name:"Loverly",
     acquired:"",
     photo:"/images/companies/loverly.png",
@@ -308,6 +339,7 @@ App.Company.FIXTURES = [
   },
   {
     id:32,
+    live:false,
     name:"Matchbook",
     acquired:"",
     photo:"/images/companies/matchbook.png",
@@ -318,6 +350,7 @@ App.Company.FIXTURES = [
   },
   {
     id:33,
+    live:true,
     name:"Memoir",
     acquired:"",
     photo:"/images/companies/memoir.png",
@@ -327,6 +360,7 @@ App.Company.FIXTURES = [
   },
   {
     id:34,
+    live:false,
     name:"Moveline",
     acquired:"",
     photo:"/images/companies/moveline.png",
@@ -337,6 +371,7 @@ App.Company.FIXTURES = [
   },
   {
     id:35,
+    live:true,
     name:"Nestio",
     acquired:"",
     photo:"/images/companies/nestio.png",
@@ -347,6 +382,7 @@ App.Company.FIXTURES = [
   },
   {
     id:36,
+    live:true,
     name:"Paintzen",
     acquired:"",
     photo:"/images/companies/paintzen.png",
@@ -357,6 +393,7 @@ App.Company.FIXTURES = [
   },
   {
     id:37,
+    live:true,
     name:"SmartAsset",
     acquired:"",
     photo:"/images/companies/smartAsset.png",
@@ -367,6 +404,7 @@ App.Company.FIXTURES = [
   },
   {
     id:38,
+    live:false,
     name:"SmileBack",
     acquired:"",
     photo:"/images/companies/smileBack.png",
@@ -376,6 +414,7 @@ App.Company.FIXTURES = [
   },
   {
     id:39,
+    live:true,
     name:"SponsorHub",
     acquired:"",
     photo:"/images/companies/sponsorHub.png",
@@ -386,6 +425,7 @@ App.Company.FIXTURES = [
   },
   {
     id:40,
+    live:true,
     name:"SupplyHog",
     acquired:"",
     photo:"/images/companies/supplyHog.png",
@@ -396,6 +436,7 @@ App.Company.FIXTURES = [
   },
   {
     id:41,
+    live:true,
     name:"TagStand",
     acquired:"",
     photo:"/images/companies/tagStand.png",
@@ -406,6 +447,7 @@ App.Company.FIXTURES = [
   },
   {
     id:42,
+    live:true,
     name:"TapAd",
     acquired:"",
     photo:"/images/companies/tapAd.png",
@@ -416,6 +458,7 @@ App.Company.FIXTURES = [
   },
   {
     id:43,
+    live:true,
     name:"Thinkful",
     acquired:"",
     photo:"/images/companies/thinkful.png",
@@ -426,6 +469,7 @@ App.Company.FIXTURES = [
   },
   {
     id:44,
+    live:true,
     name:"ThinkUp",
     acquired:"",
     photo:"/images/companies/thinkUp.png",
@@ -436,6 +480,7 @@ App.Company.FIXTURES = [
   },
   {
     id:45,
+    live:true,
     name:"Versa",
     acquired:"Change.org",
     photo:"/images/companies/versa.png",
@@ -446,6 +491,7 @@ App.Company.FIXTURES = [
   },
   {
     id:46,
+    live:true,
     name:"Videolicious",
     acquired:"",
     photo:"/images/companies/videolicious.png",
@@ -456,8 +502,9 @@ App.Company.FIXTURES = [
   },
   {
     id:47,
+    live:true,
     name:"Wallaby",
-    acquired:"",
+    acquired:"Bankrate",
     photo:"/images/companies/wallaby.png",
     location:"Passadena, CA",
     url:"http://www.walla.by",
@@ -466,6 +513,7 @@ App.Company.FIXTURES = [
   },
   {
     id:48,
+    live:true,
     name:"WePow",
     acquired:"",
     photo:"/images/companies/wePow.png",
@@ -476,6 +524,7 @@ App.Company.FIXTURES = [
   },
   {
     id:49,
+    live:true,
     name:"YesGraph",
     acquired:"",
     photo:"/images/companies/yesGraph.png",
@@ -486,6 +535,7 @@ App.Company.FIXTURES = [
   },
   {
     id:50,
+    live:true,
     name:"Zerply",
     acquired:"",
     photo:"/images/companies/zerply.png",
@@ -493,5 +543,16 @@ App.Company.FIXTURES = [
     url:"http://www.zerply.com",
     twitter:"http://twitter.com/zerply",
     angelList:"http://angel.co/zerply'"
+  },
+  {
+    id:51,
+    live:true,
+    name:"Patterns",
+    acquired:"Buzzfeed",
+    photo:"/images/companies/.png",
+    location:"",
+    url:"",
+    twitter:"http://twitter.com/",
+    angelList:"http://angel.co/'"
   }
 ]
