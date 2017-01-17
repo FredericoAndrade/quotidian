@@ -99,7 +99,7 @@ App.Company.FIXTURES = [
   },
   {
     id:10,
-    live:true,
+    live:false,
     name:"Admitted.ly",
     acquired:"",
     photo:"images/companies/admittedly.png",
@@ -121,7 +121,7 @@ App.Company.FIXTURES = [
   },
   {
     id:12,
-    live:true,
+    live:false,
     name:"Amicus",
     acquired:"",
     photo:"images/companies/amicus.png",
@@ -132,7 +132,7 @@ App.Company.FIXTURES = [
   },
   {
     id:13,
-    live:true,
+    live:false,
     name:"Adcade",
     acquired:"",
     photo:"images/companies/adcade.png",
@@ -165,7 +165,7 @@ App.Company.FIXTURES = [
   },
   {
     id:16,
-    live:true,
+    live:false,
     name:"Brass Monkey",
     acquired:"",
     photo:"images/companies/brassMonkey.png",
@@ -230,7 +230,7 @@ App.Company.FIXTURES = [
   },
   {
     id:22,
-    live:true,
+    live:false,
     name:"Disruption Corporation",
     acquired:"1776",
     photo:"images/companies/disruptionCorporation.png",
@@ -264,7 +264,7 @@ App.Company.FIXTURES = [
   {
     id:25,
     live:true,
-    name:"Field Lens",
+    name:"FieldLens",
     acquired:"",
     photo:"images/companies/fieldLens.png",
     location:"New York, NY",
@@ -416,7 +416,7 @@ App.Company.FIXTURES = [
     id:39,
     live:true,
     name:"SponsorHub",
-    acquired:"",
+    acquired:"Rentrak",
     photo:"images/companies/sponsorHub.png",
     location:"New York, NY",
     url:"http://www.sponsorhub.com",
@@ -425,7 +425,7 @@ App.Company.FIXTURES = [
   },
   {
     id:40,
-    live:true,
+    live:false,
     name:"SupplyHog",
     acquired:"",
     photo:"images/companies/supplyHog.png",
@@ -436,7 +436,7 @@ App.Company.FIXTURES = [
   },
   {
     id:41,
-    live:true,
+    live:false,
     name:"TagStand",
     acquired:"",
     photo:"images/companies/tagStand.png",
@@ -449,7 +449,7 @@ App.Company.FIXTURES = [
     id:42,
     live:true,
     name:"TapAd",
-    acquired:"",
+    acquired:"Telenor",
     photo:"images/companies/tapAd.png",
     location:"New York, NY",
     url:"http://www.tapad.com",
@@ -469,7 +469,7 @@ App.Company.FIXTURES = [
   },
   {
     id:44,
-    live:true,
+    live:false,
     name:"ThinkUp",
     acquired:"",
     photo:"images/companies/thinkUp.png",
@@ -554,5 +554,60 @@ App.Company.FIXTURES = [
     url:"http://www.buzzfeed.com",
     twitter:"",
     angelList:""
+  },
+  {
+    id:52,
+    live:true,
+    name:"Chargehound",
+    acquired:"",
+    photo:"images/companies/chargehound.png",
+    location:"Oakland, CA",
+    url:"http://www.chargehound.com",
+    twitter:"http://twitter.com/chargehound",
+    angelList:"https://angel.co/chargehound"
+  },
+  {
+    id:53,
+    live:true,
+    name:"Bluesmart",
+    acquired:"",
+    photo:"images/companies/bluesmart.png",
+    location:"New York, NY",
+    url:"http://www.bluesmart.com",
+    twitter:"http://twitter.com/bluesmart",
+    angelList:"https://angel.co/bluesmart"
+  },
+  {
+    id:54,
+    live:true,
+    name:"Cruise Automation",
+    acquired:"General Motors",
+    photo:"images/companies/cruise.png",
+    location:"San Francisco, CA",
+    url:"http://www.getcruise.com",
+    twitter:"http://twitter.com/cruise",
+    angelList:"https://angel.co/cruise-automation"
+  },
+  {
+    id:55,
+    live:true,
+    name:"Noteworth",
+    acquired:"",
+    photo:"images/companies/noteworth.png",
+    location:"Hoboken, NJ",
+    url:"http://www.noteworth.com",
+    twitter:"http://twitter.com/noteworth_",
+    angelList:"https://angel.co/noteworth"
+  },
+  {
+    id:56,
+    live:true,
+    name:"Ten Thousand",
+    acquired:"",
+    photo:"images/companies/tenthousand.png",
+    location:"New York, NY",
+    url:"https://www.tenthousand.cc/",
+    twitter:"https://twitter.com/10000apparel",
+    angelList:"https://angel.co/ten-thousand"
   }
 ]
